@@ -1,3 +1,48 @@
 .img-height {
     max-height: 100px;
 }
+
+
+.iconStyle:hover {
+    opacity: 0.5;
+}
+
+.img-hover-zoom--slowmo:hover img {
+    filter: brightness(100%);
+    transform: scale(3);
+}
+
+.img-hover-zoom {
+    height: 300px;
+    /* Modify this according to your need */
+    overflow: hidden;
+    /* Removing this will break the effects */
+}
+
+.photo-zoom {
+    width: 225px;
+    height: 225px;
+
+    margin: 0 auto;
+}
+
+.photo-zoom img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.photo-zoom:hover img {
+    transform: scale(1.1);
+}
+
+.pic-round {
+    border-radius: 10px;
+}
+
+.div-round {
+    border-radius: 10px;
+}
+
+.div-picround {
+    border-radius: 10px 10px 0px 0px;
+}
